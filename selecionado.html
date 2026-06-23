@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Detalhes do Veículo Selecionado" />
+        <meta name="author" content="Álvaro José" />
+        <title>Detalhes do Veículo - Premium Motors</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar (Mesma estrutura padrão do modelo Start Bootstrap)-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container px-lg-5">
+                <a class="navbar-brand fw-bold" href="index.html">Premium Motors</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="selecion0.html">Item Selecionado</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Conteúdo dos Detalhes do Item (Critério 2: Visualização com cabeçalho e item detalhado) -->
+        <main class="container px-lg-5 my-5 py-4">
+            <div class="row g-5 align-items-center">
+                <!-- Imagem do Veículo direto da Web -->
+                <div class="col-12 col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded-3 shadow-lg" alt="BMW M3 de Coleção">
+                </div>
+                
+                <!-- Informações Detalhadas exigidas no Enunciado do Trabalho -->
+                <div class="col-12 col-lg-6">
+                    <span class="badge bg-primary px-3 py-2 mb-3">Destaque do Catálogo</span>
+                    <h1 class="fw-bold display-5 mb-2">BMW E36 M3 Coupe</h1>
+                    <p class="text-muted fs-5 mb-4">Ano Modelo: 1997 | Quilometragem: 85.000 km | Cor: Alpine White</p>
+                    
+                    <h2 class="text-primary fw-bold mb-4">R$ 145.000,00</h2>
+                    
+                    <h5 class="fw-bold">Descrição Completa:</h5>
+                    <p class="text-muted mb-4" style="line-height: 1.7;">
+                        Exemplar rigorosamente bem mantido, mecânica revisada com histórico de manutenção minucioso. Interior em couro preto original sem rasgos, teto solar totalmente funcional e rodas de liga leve de fábrica. Uma verdadeira obra de arte purista dos anos 90, perfeita para quem busca colecionismo de alto nível.
+                    </p>
+
+                    <!-- Ficha Técnica Estruturada -->
+                    <div class="mb-4">
+                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-gear-wide-connected me-2"></i>Especificações Técnicas:</h6>
+                        <table class="table table-striped table-hover border">
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="w-40">Motorização</th>
+                                    <td>3.2 Litros - 6 Cilindros em Linha (S52)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Potência</th>
+                                    <td>240 cavalos</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Transmissão</th>
+                                    <td>Manual de 5 marchas (Tração Traseira)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Combustível</th>
+                                    <td>Gasolina</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Botões de Ação (Com a opção sugerida de "Tenho interesse") -->
+                    <div class="row g-2">
+                        <div class="col-12 col-sm-6">
+                            <button class="btn btn-success btn-lg w-100 fw-bold" onclick="alert('Seu interesse foi registrado com sucesso! Entraremos em contato via e-mail.')">
+                                <i class="bi bi-check-circle-fill me-2"></i>Tenho Interesse
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <a href="index.html" class="btn btn-outline-secondary btn-lg w-100">
+                                <i class="bi bi-arrow-left me-2"></i>Voltar à Vitrine
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Footer (Igual ao da página index.html) -->
+        <footer class="py-5 bg-dark mt-auto">
+            <div class="container px-lg-5">
+                <p class="m-0 text-center text-white">Copyright &copy; Premium Motors 2026</p>
+                <p class="m-0 text-center text-muted small mt-2">Trabalho de Front End - BCC - Profª Hially R. Vaguetti</p>
+            </div>
+        </footer>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

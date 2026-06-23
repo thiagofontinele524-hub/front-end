@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Trabalho de Front End - Premium Motors" />
+        <meta name="author" content="Seu Nome" />
+        <title>Premium Motors - Catálogo de Veículos</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* Ajuste para que as imagens dos carros fiquem alinhadas e bonitas nos cards */
+            .card-img-top {
+                height: 200px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container px-lg-5">
+                <a class="navbar-brand fw-bold" href="index.html">Premium Motors</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="selecionado.html">Item Selecionado</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 bg-dark text-white rounded-3 text-center" style="background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold">Encontre o Carro dos Seus Sonhos</h1>
+                        <p class="fs-4">Modelos exclusivos, alta performance e condições imperdíveis de financiamento com procedência garantida.</p>
+                        <a class="btn btn-primary btn-lg fw-bold" href="#vitrine">Ver Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="pt-4" id="vitrine">
+            <div class="container px-lg-5">
+                <h2 class="text-center mb-5 fw-bold">Nossa Vitrine</h2>
+                
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    
+                    <div class="col mb-5">
+                        <div class="card bg-light border-0 h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" class="card-img-top rounded-top" alt="Porsche 911">
+                            <div class="card-body text-center p-4">
+                                <h3 class="fs-4 fw-bold mt-2">Porsche 911 Carrera</h3>
+                                <p class="mb-3 text-muted">O clássico design alemão aliado à mais pura engenharia de pista. Motor boxer biturbo e dirigibilidade incomparável.</p>
+                                <h5 class="text-primary fw-bold mb-3">R$ 890.000,00</h5>
+                                <a href="selecionado.html" class="btn btn-dark w-100">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col mb-5">
+                        <div class="card bg-light border-0 h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80" class="card-img-top rounded-top" alt="SUV Range Rover">
+                            <div class="card-body text-center p-4">
+                                <h3 class="fs-4 fw-bold mt-2">Range Rover Sport</h3>
+                                <p class="mb-3 text-muted">O ápice do luxo fora de estrada. Interior refinado com acabamento em couro nobre, tração integral inteligente e motor V8.</p>
+                                <h5 class="text-primary fw-bold mb-3">R$ 640.000,00</h5>
+                                <a href="selecionado.html" class="btn btn-dark w-100">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col mb-5">
+                        <div class="card bg-light border-0 h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=600&q=80" class="card-img-top rounded-top" alt="Audi e-tron">
+                            <div class="card-body text-center p-4">
+                                <h3 class="fs-4 fw-bold mt-2">Audi e-tron GT</h3>
+                                <p class="mb-3 text-muted">Performance eletrizante e emissão zero. Tecnologia de carregamento ultra-rápido e cockpit virtual de última geração.</p>
+                                <h5 class="text-primary fw-bold mb-3">R$ 710.000,00</h5>
+                                <a href="selecionado.html" class="btn btn-dark w-100">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container px-lg-5">
+                <h2 class="text-center mb-5 fw-bold">Depoimentos dos Clientes</h2>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6">
+                        <div class="bg-white p-4 rounded-3 shadow-sm border-start border-primary border-4">
+                            <p class="text-muted italic">"A experiência de compra foi fantástica. O atendimento foi super transparente e o carro foi entregue impecável, exatamente como no catálogo online."</p>
+                            <h6 class="fw-bold mb-0">Carlos Eduardo Lima</h6>
+                            <small class="text-primary">Proprietário de um Porsche 911</small>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="bg-white p-4 rounded-3 shadow-sm border-start border-primary border-4">
+                            <p class="text-muted italic">"A melhor concessionária premium que já utilizei. Toda a negociação do meu e-tron elétrico foi feita de forma digital e rápida."</p>
+                            <h6 class="fw-bold mb-0">Amanda Rodrigues Rocha</h6>
+                            <small class="text-primary">Diretora de Tecnologia</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="py-5 bg-dark">
+            <div class="container px-lg-5">
+                <p class="m-0 text-center text-white">Copyright &copy; Premium Motors 2026</p>
+                <p class="m-0 text-center text-muted small mt-2">Trabalho de Front End - BCC - Profª Hially R. Vaguetti</p>
+            </div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
